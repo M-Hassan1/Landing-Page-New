@@ -25,3 +25,8 @@ const BrowsReviews: React.FC = () => {
 };
 
 export default BrowsReviews;
+
+
+
+
+
