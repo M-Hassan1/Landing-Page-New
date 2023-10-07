@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/components/Assets/Images/ED-Review.png";
+import Logo from "@/components/assets/Images/ED-Review.png";
 
 const NewpageData = () => {
   return (

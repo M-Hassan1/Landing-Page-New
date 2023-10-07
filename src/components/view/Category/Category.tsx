@@ -1,15 +1,15 @@
 
 import React from 'react';
 import CategoryItem from './CategoryItem'; // Import the CategoryItem component
-import OneImage from "@/components/Assets/Images/fsfsfsfsfe.png";
-import TwoImage from "@/components/Assets/Images/6464646.png"; 
-import ThreeImage from "@/components/Assets/Images/presentationddddddddd.png";
-import FourImage from "@/components/Assets/Images/languagefff.png"
-import FiveImage from "@/components/Assets/Images/playlistddd.png"
+import OneImage from "@/components/assets/Images/fsfsfsfsfe.png";
+import TwoImage from "@/components/assets/Images/6464646.png"; 
+import ThreeImage from "@/components/assets/Images/presentationddddddddd.png";
+import FourImage from "@/components/assets/Images/languagefff.png"
+import FiveImage from "@/components/assets/Images/playlistddd.png"
 
-import SixImage from "@/components/Assets/Images/dar.png"
-import SevenImage from "@/components/Assets/Images/fsfsfsfsfe.png"
-import EightImage from "@/components/Assets/Images/6464646.png"
+import SixImage from "@/components/assets/Images/dar.png"
+import SevenImage from "@/components/assets/Images/fsfsfsfsfe.png"
+import EightImage from "@/components/assets/Images/6464646.png"
 
 const Category = () => {
   // Create an array of objects with image sources and names

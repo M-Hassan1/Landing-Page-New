@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeImage from '@/components/Assets/Images/data.png';
+import HomeImage from '@/components/assets/Images/data.png';
 import Image from 'next/image';
 
 const BackGroundImage = () => {

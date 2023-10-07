@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import BgImage from '@/components/Assets/Images/Rectangle 2.png';
+import BgImage from '@/components/assets/Images/Rectangle 2.png';
 import BackGroundImage from './BackGroundImage';
 import Content from './Content';
 
