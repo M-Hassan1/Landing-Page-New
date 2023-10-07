@@ -46,61 +46,61 @@ export const navigationItems = ['Companies', 'Course', 'Booka demo', 'Internship
 
 
 
-interface CardData {
-    profileIcon: string;
-    name: string;
-    rating: number;
-    description: string;
-  }
+// interface CardData {
+//     profileIcon: string;
+//     name: string;
+//     rating: number;
+//     description: string;
+//   }
   
-  export const cardsData: CardData[] = [
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile2.jpg',
-      name: 'Jane Smith',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      profileIcon: 'profile1.jpg',
-      name: 'John Doe',
-      rating: 5,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
+  // export const cardsData: CardData[] = [
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile2.jpg',
+  //     name: 'Jane Smith',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
+  //   {
+  //     profileIcon: 'profile1.jpg',
+  //     name: 'John Doe',
+  //     rating: 5,
+  //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  //   },
   
-  ];
+  // ];

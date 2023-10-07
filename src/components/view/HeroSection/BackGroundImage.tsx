@@ -5,7 +5,7 @@ import Image from 'next/image';
 const BackGroundImage = () => {
   return (
     <div className="absolute inset-0 flex items-end justify-end">
-    <div className="relative w-96 h-[480px] sm:w-80 sm:h-[380px] md:w-80 md:h-[380px] lg:w-[680px] lg:h-[480px]">
+    <div className="relative w-[384px] h-[480px] sm:w-[320px] sm:h-[380px] md:w-[320px] md:h-[380px] lg:w-[680px] lg:h-[480px]">
       <Image
         src={HomeImage}
         alt="Your Image"
@@ -17,4 +17,4 @@ const BackGroundImage = () => {
   )
 }
 
-export default BackGroundImage
+export default BackGroundImage;
