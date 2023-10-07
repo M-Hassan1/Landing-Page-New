@@ -7,11 +7,12 @@ import FDataPage from '../FooterData/FDataPage'
 import ThirdPage from '../FooterData/ThirdPage'
 import NewpageData from '../FooterData/NewpageData'
 import ContectList from '../FooterData/ContectList'
+import Wrapper from '@/components/utils/wrapper'
 const Footer  = () => {
 
   return (
     <div className='bg-[#090303] text-white pt-32 pb-3'>
-      <div className='flex justify-between flex-col md:flex-row gap-12 md:gap-0' >
+      <Wrapper className='flex justify-between flex-col md:flex-row gap-12 md:gap-0' >
 
       {/* Left Side */}
       <div className='flex gap-[35px] md:gap-[55px] lg:gap-[70px] flex-col md:flex-row'>
@@ -36,14 +37,14 @@ const Footer  = () => {
             {/* RIGHT START */}
             <div className='md:absolute md:right-8 md:mt-48' ><ThirdPage /></div>     
         {/* End */}
-      </div>
-      <div className='flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0 ' >
+      </Wrapper>
+      <Wrapper className='flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0 ' >
       <div className='text-[15px] text-white/[0.5] hover:text-white cursor-pointer md:text-left'>
         CopyRight © 2023 Muhammad Hassan, All Rights Reserved
        </div>
        {/* Left Side Complete End */}
 
-      </div>
+      </Wrapper>
     </div>
   )
 }

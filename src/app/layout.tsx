@@ -1,4 +1,4 @@
-import Wrapper from '@/components/shared/wrapper'
+import Wrapper from '@/components/shared/wrapperTwo'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'

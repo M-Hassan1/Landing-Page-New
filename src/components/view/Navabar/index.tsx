@@ -1,5 +1,5 @@
 'use client'
-import Logo from '@/components/Assets/Images/ED-Review.png';
+import Logo from '@/components/assets/Images/ED-Review.png';
 import BellIcon from '@/components/assets/icons/BellIcon';
 import Profile from '@/components/assets/icons/Profile';
 import { navigationItems } from '@/components/utils/arrays';

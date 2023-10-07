@@ -1,4 +1,4 @@
-import { GoogleIcon, ItelIcon, JioIcon, TechIcon } from '../Assets';
+import { GoogleIcon, ItelIcon, JioIcon, TechIcon } from '../assets';
 
 export interface internshipArrayCrouselType {
     logo: string,

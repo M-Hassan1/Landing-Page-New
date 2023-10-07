@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { BagIcon, CalenderIcon, CoinIcon } from '../Assets';
+import { BagIcon, CalenderIcon, CoinIcon } from '../assets';
 import LocationIcon from '../assets/icons/Location';
 import { internshipArrayCrouselType } from '../utils/arrays';
 import StarIcon from '../assets/icons/StarIcon';
