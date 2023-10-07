@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import BgImage from '@/components/Assets/Images/Rectangle 2.png';
 import BackGroundImage from './BackGroundImage';
-import Content from './content';
+import Content from './Content';
 
 const HomePage = () => {
   return (
