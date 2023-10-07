@@ -1,5 +1,4 @@
 import BrowsReviews from "@/components/view/BrowsReviews";
-// import ProductCarousel from "@/components/view/BrowsReviews/ReviewCarousel";
 import Category from "@/components/view/Category/Category";
 import HomePage from "@/components/view/HeroSection";
 import LatestInternships from "@/components/view/InternShips";
@@ -17,7 +16,7 @@ export default function Home() {
       <LatestInternships />
       <CoursesOffer />
       <BrowsReviews />
-      {/* <ProductCarousel />    */}
+      
     </div>
   )
 }

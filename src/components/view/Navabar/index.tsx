@@ -18,9 +18,9 @@ const NavBar = () => {
     <>
       <div className='bg-white'>
         <div className='max-w-screen-xl mx-auto p-4 flex items-center justify-between'>
-          <Image src={Logo} alt="Logo" height={22} width={98} />
+          <Image src={Logo} alt="Logo" height={22} width={98} className='cursor-pointer' />
           <div className='flex items-center space-x-[42px]'>
-            <ul className='hidden md:flex items-center gap-8 text-md font-semibold'>
+            <ul className='hidden cursor-pointer md:flex items-center gap-8 text-md font-semibold'>
               {navigationItems.map((item: string, index: number) => (
                 <li key={index}>{item}</li>
               ))}
