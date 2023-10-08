@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Rating from "@/components/assets/Images/Star9.png";
 import Image from 'next/image';
@@ -13,11 +14,11 @@ interface CardProps {
 const CardPage: React.FC<CardProps> = ({ profileIcon, name, rating, description }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center justify-center">
-      <div className="flex items-center">
+      <div className="flex flex-col md:flex-row items-center">
         <Image
           src={Profile}
           alt={`Profile icon for ${name}`}
-          className="w-12 h-12 rounded-full mr-4"
+          className="w-12 h-12 rounded-full mb-4 md:mb-0 md:mr-4"
         />
         <div>
           <p className="text-xl font-semibold">{name}</p>
