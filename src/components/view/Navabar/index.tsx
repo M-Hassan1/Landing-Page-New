@@ -24,6 +24,7 @@ const NavBar = () => {
               {navigationItems.map((item: string, index: number) => (
                 <li key={index}>{item}</li>
               ))}
+              
             </ul>
             <BellIcon />
             <div className='relative inline-block text-left'>
@@ -53,7 +54,7 @@ const NavBar = () => {
         </div>
 
       </div>
-      <div className='md:hidden'>
+      <div className=''>
         <Dropdown />
       </div>
     </>

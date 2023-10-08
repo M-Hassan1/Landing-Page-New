@@ -61,6 +61,15 @@
     
 }
 
+@media (min-width : 300px) and (max-width: 470px){
+    .flex-container {
+        margin-left: 3rem;
+      }
+      .inputMain{
+        display: none;
+      }
+}
+
 @media (max-width: 900px) {
     .text-image {
        display: none;
