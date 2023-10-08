@@ -1,6 +1,6 @@
-import LocationIcon from '@/components/assets/icons/Location'
-import MailIcon from '@/components/assets/icons/MailIcon'
-import PhoneIcon from '@/components/assets/icons/PhoneIcon'
+import { BsTelephone } from "react-icons/bs";
+import { BiMessageDetail } from "react-icons/bi";
+import { CiLocationOn } from "react-icons/ci";
 import React from 'react'
 import ThirdPage from './ThirdPage'
 
@@ -70,13 +70,13 @@ const Footers = () => {
                         <h2 className="text-[#67E776] text-[24px] font-semibold mb-3">Contact Us</h2>
                         <ul className="list-none text-[#FFF] mb-10">
                             <li className='flex'>
-                                <PhoneIcon /><span className='ml-2'>+91 33555 6778</span>
+                                <BsTelephone /><span className='ml-2'>+91 33555 6778</span>
                             </li>
                             <li className='flex'>
-                                <MailIcon /><span className='ml-2'> JohnDoe@gmail.com</span>
+                                <BiMessageDetail /><span className='ml-2'> JohnDoe@gmail.com</span>
                             </li>
                             <li className='flex'>
-                                <LocationIcon /> <span className='ml-2'>Street 34 Sector 12 B Mumbai India</span>
+                                <CiLocationOn /> <span className='ml-2'>Street 34 Sector 12 B Mumbai India</span>
                             </li>
                         </ul>
                     </div>

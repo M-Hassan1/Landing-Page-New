@@ -8,15 +8,26 @@ const HomePage = () => {
     <div className="cover-container">
       <Image src={BgImage} alt="Cover Photo" className="cover-photo" />
       <div className="overlay">
-        <div className="flex-container">
-          <div className="text text-2xl "><h1>To be the best, 
-            </h1>
-          <h1 className='text-[#67E776] text-2xl ' >Choose the best...</h1>
-          <h4 className='pt-3 text-[12px]'>Company reviews, Course review, Internship</h4>
-          <input className='p-1 w-full text-md rounded-md outline-none text-black' type="search" placeholder='Searh Here' />
+      <div className="flex-container">
+        <div className="">
+          <h1 className='font-poppins font-extrabold text-4xl text-white'>
+            To be the best, 
+          </h1>
+          <h1 className='text-[#67E776] font-poppins font-extrabold text-4xl'>
+            Choose the best...
+          </h1>
+          <h4 className='pt-3 font-poppins text-white text-[18px]'>
+            Company reviews, Course review, Internship
+          </h4>
+          <div className="flex mt-3">
+            <input className='p-2 w-full text-lg rounded-md outline-none text-black' type="search" placeholder='Search Here' />
+            <button className='ml-2 px-4 py-2 bg-[#67E776] rounded-md'>
+              Search
+            </button>
           </div>
-          <Image src={HomeImage} alt="Text Image" className="text-image" />
         </div>
+            <Image src={HomeImage} alt="Text-Image" className="text-image" />
+          </div>
       </div>
     </div>
   );

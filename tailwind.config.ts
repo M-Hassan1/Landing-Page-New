@@ -17,7 +17,9 @@ module.exports = {
       'lg': "1024px",
       'xl': "1220px",
     },
-    
+    fontFamily: {
+      'poppins': ['Poppins', 'sans'],
+    },
   },
   plugins: [],
 }
