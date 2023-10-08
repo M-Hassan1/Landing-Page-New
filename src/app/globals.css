@@ -81,16 +81,22 @@
       }
 
 }
-@media (min-width: 901px) and (max-width: 990px) {
+@media (min-width: 901px) and (max-width: 926px) {
     .text-image {
         width: 582px; 
-        height: 400px;
+        height: 385px;
+    }
+}
+@media (min-width: 930px) and (max-width: 1000px) {
+    .text-image {
+        width: 582px; 
+        height: 410px;
     }
 }
 @media (min-width: 1005px) and (max-width: 1020px) {
     .text-image {
         width: 582px; 
-        height: 420px;
+        height: 425px;
     }
 }
 
@@ -103,7 +109,7 @@
 @media (min-width: 1156px) and (max-width: 1200px) {
     .text-image {
         width: 600px; 
-        height: 438px;
+        height: 446px;
     }
 }
 @media (min-width: 1201px) {
