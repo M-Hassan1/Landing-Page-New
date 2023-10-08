@@ -6,6 +6,7 @@ import { navigationItems } from '@/components/utils/arrays';
 import Image from 'next/image';
 import { useState } from 'react';
 import Dropdown from './Dropdown';
+import Link from 'next/link';
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -35,13 +36,13 @@ const NavBar = () => {
                 <div className='origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5'>
                   <div className='py-1'>
                     {navigationItems.map((item, index) => (
-                      <a
+                      <Link
                         key={index}
                         href='#' // Replace with actual links
                         className='  block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
                       >
                         {item}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
