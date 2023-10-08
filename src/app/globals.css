@@ -2,4 +2,104 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+/* Create a container for the cover photo and overlay */
+.cover-container {
+    position: relative;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+/* Style the cover photo to cover the container */
+.cover-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Create an overlay with a background color and opacity */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 29, 154, 0.88); /* Adjust the color and opacity */
+    z-index: 1; /* Ensure the overlay is above the cover photo */
+}
+
+/* Style the overlay content */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-left: 8rem;
+  }
+  
+  .text {
+    margin-left: 20%;
+    color: white;
+    margin: 10px; 
+  }
+  
+.text-image {
+    width: 590px;
+    height: 425px;
+    
+}
+
+@media (max-width: 900px) {
+    .text-image {
+       display: none;
+    }
+    .flex-container {
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+      }
+
+}
+@media (min-width: 901px) and (max-width: 990px) {
+    .text-image {
+        width: 582px; 
+        height: 400px;
+    }
+}
+@media (min-width: 1005px) and (max-width: 1020px) {
+    .text-image {
+        width: 582px; 
+        height: 420px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1155px) {
+    .text-image {
+        width: 600px; 
+        height: 440px;
+    }
+}
+@media (min-width: 1156px) and (max-width: 1200px) {
+    .text-image {
+        width: 600px; 
+        height: 438px;
+    }
+}
+@media (min-width: 1201px) {
+    .text-image {
+        width: 650px;
+        height: 445px;
+    }
+}
 
