@@ -1,7 +1,4 @@
-
 import React from 'react'
-
-
 import SecondMenu from '../FooterData/SecondMenu'
 import FDataPage from '../FooterData/FDataPage'
 import ThirdPage from '../FooterData/ThirdPage'

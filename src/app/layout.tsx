@@ -1,7 +1,8 @@
 import Wrapper from '@/components/shared/wrapperTwo'
-import './globals.css'
+import Footers from '@/components/view/Footers'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Wrapper>
           {children}
         </Wrapper>
+        <Footers />
       </body>
     </html>
   )

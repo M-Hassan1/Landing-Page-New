@@ -17,7 +17,7 @@ export default function Home() {
       <LatestInternships />
       <CoursesOffer />
       <BrowsReviews />
-      <Footer />     
+      {/* <Footer />      */}
     </div>
   )
 }
